@@ -20,17 +20,22 @@ Z = (XC'*XC)/m; %Covariance matrix
 scatter(B(:, 1), B(:, 2));
 hold on;
 centerOfMass = [mean(B(:,1)), mean(B(:,2))]
-plot(centerOfMass(1), centerOfMass(2), 'x', 'MarkerSize', 30, 'LineWidth', 8)
+%plot(centerOfMass(1), centerOfMass(2), 'x', 'MarkerSize', 30, 'LineWidth', 8)
+vectors = eigenVectors;
+vectors(1,:) = vectors(1,:) * eigenValues(1, 1);
+vectors(2,:) = vectors(2,:) * eigenValues(2, 2);
+quiver([centerOfMass(1) ; centerOfMass(1)], [centerOfMass(2) ; centerOfMass(2)], vectors(:,1), vectors(:,2), 'LineWidth', 2)
 errorbar(1, centerOfMass(2), Z(2,2))
 errorbar(centerOfMass(1), 1, Z(1,1), 'horizontal')
 xlabel("X variance")
 ylabel("Y variance")
 
+b = A*eigenVectors
+
 
 function centeredMatrix = centerValuesByColumn(X)
     centeredMatrix = X;
-    attributes = size(centeredMatrix);
-    attributes = attributes(2);
+    attributes = size(centeredMatrix, 2);
     for col = 1:attributes
         currentColumn = centeredMatrix(:, col);
         columnMean = mean(centeredMatrix(:, col));
