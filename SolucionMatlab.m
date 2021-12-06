@@ -1,6 +1,7 @@
 clear variables;
 clc;
 
+%File
 attributes = 7;
 instances = 210;
 dataPath = "seeds_dataset.txt";
@@ -10,6 +11,7 @@ seedsDataFile = fopen(dataPath, 'r');
 seedsDataRaw = fscanf(seedsDataFile, rowFormat);
 fclose("all");
 
+%Data processing
 X = reshape(seedsDataRaw, attributes, instances)'; %instances x attributes     
 
 XC = centerValuesByColumn(X);
@@ -17,19 +19,23 @@ XC = centerValuesByColumn(X);
 Z = (XC'*XC)/instances % Covariance matrix
 [eigenVectors, eigenValues] = eig(Z);
 
-[maxEigenValue, secondMaxEigenValue] = getTwoMaxIndices(eigenValues);
+[maxEigenValueIndex, secondmaxEigenValueIndex] = getTwoMaxIndices(eigenValues);
 
+%Plotting
 hold on
-scatter(X(:, maxEigenValue), X(:, secondMaxEigenValue));
 
+scatter(X(:, maxEigenValueIndex), X(:, secondmaxEigenValueIndex));
+
+% Apply correct sizing to the vectors
 vectors = eigenVectors;
 for i=1:size(eigenVectors,1)
     vectors(i,:) = vectors(i,:) * eigenValues(i, i);
 end
-centerOfMass = [mean(X(:,maxEigenValue)), mean(X(:,secondMaxEigenValue))]
+
+centerOfMass = [mean(X(:,maxEigenValueIndex)), mean(X(:,secondmaxEigenValueIndex))]
 quiver([centerOfMass(1) ; centerOfMass(1)], [centerOfMass(2) ; centerOfMass(2)],  ...
-    vectors([maxEigenValue, secondMaxEigenValue],maxEigenValue), ...
-    vectors([maxEigenValue, secondMaxEigenValue],secondMaxEigenValue), 'LineWidth', 2)
+    vectors([maxEigenValueIndex, secondmaxEigenValueIndex],maxEigenValueIndex), ...
+    vectors([maxEigenValueIndex, secondmaxEigenValueIndex],secondmaxEigenValueIndex), 'LineWidth', 2)
 
 ylabel("Coeficiente de asimetría");
 xlabel("Longitud de la ranura del grano");
