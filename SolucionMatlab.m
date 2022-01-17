@@ -12,7 +12,7 @@ seedsDataRaw = fscanf(seedsDataFile, rowFormat);
 fclose("all");
 
 %Data processing
-X = reshape(seedsDataRaw, attributes, instances)'; %instances x attributes     
+X = reshape(seedsDataRaw, attributes, instances)'; %instances x attributes
 
 XC = centerValuesByColumn(X);
 
@@ -40,6 +40,10 @@ quiver([centerOfMass(1) ; centerOfMass(1)], [centerOfMass(2) ; centerOfMass(2)],
 ylabel("Coeficiente de asimetría");
 xlabel("Longitud de la ranura del grano");
 
+test = X*eigenVectors
+figure(2);
+scatter(test(:, maxEigenValueIndex), test(:, secondmaxEigenValueIndex));
+
 function centeredMatrix = centerValuesByColumn(X)
     centeredMatrix = X;
     attributes = size(centeredMatrix, 2);
@@ -52,7 +56,7 @@ end
 
 function [maxIndex, secondMaxIndex] = getTwoMaxIndices(eigenvaluesMatrix)
     eigenValues = max(eigenvaluesMatrix);
-    [maxValue, maxIndex] = max(eigenValues);
+    [~, maxIndex] = max(eigenValues);
     eigenValues(maxIndex) = [];
-    [maxValue, secondMaxIndex] = max(eigenValues);
+    [~, secondMaxIndex] = max(eigenValues);
 end
