@@ -1,0 +1,410 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\kernel.cu.obj "E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu" 
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(126): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(126): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(204): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(210): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(216): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(222): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(228): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(234): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(277): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(283): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(289): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(295): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(338): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(344): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(350): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(356): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(399): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(405): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(411): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(417): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(126): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(126): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(154): warning : conversion from a string literal to "char *" is deprecated
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(204): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(210): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(216): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(222): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(228): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(234): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (237): here
+              variable "numBlocksY"
+  (238): here
+              variable "blocks"
+  (239): here
+              variable "threadsPerBlock"
+  (240): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(277): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(283): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(289): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(295): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (298): here
+              variable "numBlocksY"
+  (299): here
+              variable "blocks"
+  (300): here
+              variable "threadsPerBlock"
+  (301): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(338): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(344): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(350): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(356): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (359): here
+              variable "numBlocksY"
+  (360): here
+              variable "blocks"
+  (361): here
+              variable "threadsPerBlock"
+  (362): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(399): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(405): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(411): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+E:\Estudios\Ingenieria_Informatica\Cuarto\MÚtodos NumÚricos para Computaci¾n\MNCfinalCUDA\MNC final CUDA\kernel.cu(417): warning : transfer of control bypasses initialization of:
+              variable "numBlocksX"
+  (420): here
+              variable "numBlocksY"
+  (421): here
+              variable "blocks"
+  (422): here
+              variable "threadsPerBlock"
+  (423): here
+  
+  kernel.cu
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(138): warning C4244: 'argumento': conversión de 'int' a 'const float'; posible pérdida de datos
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(171): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(172): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(261): warning C4533: la inicialización de 'threadsPerBlock' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(240): note: vea la declaración de 'threadsPerBlock'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(261): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(261): warning C4533: la inicialización de 'blocks' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(239): note: vea la declaración de 'blocks'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(261): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(322): warning C4533: la inicialización de 'threadsPerBlock' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(301): note: vea la declaración de 'threadsPerBlock'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(322): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(322): warning C4533: la inicialización de 'blocks' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(300): note: vea la declaración de 'blocks'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(322): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(383): warning C4533: la inicialización de 'threadsPerBlock' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(362): note: vea la declaración de 'threadsPerBlock'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(383): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(383): warning C4533: la inicialización de 'blocks' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(361): note: vea la declaración de 'blocks'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(383): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(444): warning C4533: la inicialización de 'threadsPerBlock' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(423): note: vea la declaración de 'threadsPerBlock'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(444): note: vea la declaración de 'Error'
+E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(444): warning C4533: la inicialización de 'blocks' se omite en 'goto Error'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(422): note: vea la declaración de 'blocks'
+  E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\kernel.cu(444): note: vea la declaración de 'Error'
+     Creando biblioteca E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\x64\Release\MNC final CUDA.lib y objeto E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\x64\Release\MNC final CUDA.exp
+  LINK : se especificó /LTCG pero no se requiere generación de código; quite /LTCG de la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+  MNC final CUDA.vcxproj -> E:\Estudios\Ingenieria_Informatica\Cuarto\Métodos Numéricos para Computación\MNCfinalCUDA\MNC final CUDA\x64\Release\MNC final CUDA.exe
